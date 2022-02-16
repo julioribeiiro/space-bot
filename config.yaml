@@ -14,7 +14,11 @@ time_intervals:
 
   # [pt_BR] Intervalo de tempo para checar se houve algum erro de idle, onde nao aparece mensagem de erro
   # Valor padrão (em minutos): 5
-  check_idle_in_spaceships_screen: 15
+  check_idle_in_spaceships_screen: 5
+
+  # [pt_BR] Intervalo de tempo para checar se houve algum erro de idle, na tela de batalha
+  # Valor padrão (em minutos): 2
+  check_idle_in_battle_screen: 2
 
   # [en_US] Time interval to check for login request
   # Default value (in minutes): 3
@@ -74,15 +78,15 @@ home:
 # Default value: 60
 #
 # [pt_BR]
-# Valor padrão: 60
-scroll_size: 60
+# Valor padrão: -80
+scroll_size: 80
 
 # [en_US]
 # Default value: 3
 #
 # [pt_BR]
 # Valor padrão: 3
-scroll_attemps: 3
+scroll_attemps: 6
 
 # [en_US]
 # Default value: true
